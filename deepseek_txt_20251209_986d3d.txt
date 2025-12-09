@@ -1,0 +1,9 @@
+# متطلبات النظام الموحد
+
+# Python 3.6 or higher required
+
+# No external dependencies needed for basic functionality
+# Built-in libraries only
+
+# Optional for installer:
+# pyinstaller>=5.0 (for creating EXE files)

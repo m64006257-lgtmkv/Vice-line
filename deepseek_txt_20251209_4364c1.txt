@@ -1,0 +1,21 @@
+# متطلبات النظام الموحد لـ GTA Vice City
+# Python 3.6 or higher required
+
+# Core dependencies
+psutil>=5.9.0
+
+# Windows-specific dependencies (optional)
+pywin32>=305 ; sys_platform == 'win32'
+
+# Development dependencies
+pyinstaller>=5.0 ; extra == 'build'
+
+# Test dependencies
+pytest>=7.0 ; extra == 'test'
+
+# Installation groups
+[build]
+pyinstaller>=5.0
+
+[test]
+pytest>=7.0
